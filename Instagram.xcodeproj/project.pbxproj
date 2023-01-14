@@ -11,7 +11,7 @@
 		2D3FD10429502DDC00B070F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FD10329502DDC00B070F0 /* ContentView.swift */; };
 		2D3FD10629502DDC00B070F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FD10529502DDC00B070F0 /* Assets.xcassets */; };
 		2D3FD10929502DDC00B070F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FD10829502DDC00B070F0 /* Preview Assets.xcassets */; };
-		2DEDBDC6297341C0000E217F /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEDBDC5297341C0000E217F /* Story.swift */; };
+		2DEDBDC6297341C0000E217F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEDBDC5297341C0000E217F /* ProfileView.swift */; };
 		2DEDBDC9297346B9000E217F /* StoryCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEDBDC8297346B9000E217F /* StoryCarousel.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +21,7 @@
 		2D3FD10329502DDC00B070F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D3FD10529502DDC00B070F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3FD10829502DDC00B070F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2DEDBDC5297341C0000E217F /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		2DEDBDC5297341C0000E217F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2DEDBDC8297346B9000E217F /* StoryCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 		2DEDBDC729734690000E217F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2DEDBDC5297341C0000E217F /* Story.swift */,
+				2DEDBDC5297341C0000E217F /* ProfileView.swift */,
 				2DEDBDC8297346B9000E217F /* StoryCarousel.swift */,
 			);
 			path = Views;
@@ -154,7 +154,7 @@
 				2D3FD10429502DDC00B070F0 /* ContentView.swift in Sources */,
 				2DEDBDC9297346B9000E217F /* StoryCarousel.swift in Sources */,
 				2D3FD10229502DDC00B070F0 /* InstagramApp.swift in Sources */,
-				2DEDBDC6297341C0000E217F /* Story.swift in Sources */,
+				2DEDBDC6297341C0000E217F /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

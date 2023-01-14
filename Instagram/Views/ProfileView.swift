@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Story: View {
+struct ProfileView: View {
     var image: String
     var name: String
     
@@ -29,8 +29,8 @@ struct Story: View {
     }
 }
 
-struct Story_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        Story(image: "profile", name: "Simon McNeil")
+        ProfileView(image: "profile", name: "Simon McNeil")
     }
 }
