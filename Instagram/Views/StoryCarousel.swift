@@ -3,7 +3,7 @@ import SwiftUI
 struct StoryCarousel: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 15) {
+            LazyHStack(spacing: 15) {
                 ProfileView(image: "profile", name: "Simon McNeil")
                 ProfileView(image: "profile1", name: "Sophie T")
                 ProfileView(image: "profile2", name: "James")
@@ -14,6 +14,8 @@ struct StoryCarousel: View {
                 ProfileView(image: "profile7", name: "Pom")
                 ProfileView(image: "profile", name: "Simon McNeil")
             }
+            // Need this or else the HStack will take up whole screen. Only needed when using Lazy
+            .fixedSize()
             .padding(.horizontal, 8)
         }
         .padding(.vertical, 10)
